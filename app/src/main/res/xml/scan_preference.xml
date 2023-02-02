@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ListPreference
+		android:defaultValue="1"
+		android:entries="@array/scan_mode_entries"
+		android:entryValues="@array/scan_mode_values"
+		android:key="SCAN_MODE"
+		android:title="Scan mode"
+		android:summary="%s"/>
+
+	<ListPreference
+		android:defaultValue="2"
+		android:entries="@array/match_mode_entries"
+		android:entryValues="@array/match_mode_values"
+		android:key="MATCH_MODE"
+		android:title="Match mode"
+		android:summary="%s"/>
+
+	<ListPreference
+		android:defaultValue="1"
+		android:entries="@array/callback_type_entries"
+		android:entryValues="@array/callback_type_values"
+		android:key="CALLBACK_TYPE"
+		android:title="Callback type"
+		android:summary="%s"/>
+
+	<ListPreference
+		android:defaultValue="1"
+		android:entries="@array/match_num_entries"
+		android:entryValues="@array/match_num_values"
+		android:key="MATCH_NUM"
+		android:title="Match num"
+		android:summary="%s"/>
+	<ListPreference
+		android:defaultValue="2086"
+		android:entries="@array/wheel_size_entries"
+		android:entryValues="@array/wheel_size_values"
+		android:key="WHEEL_SIZE_PREFERENCE"
+		android:title="Tire size"
+		android:summary="%s"/>
+
+</PreferenceScreen>
